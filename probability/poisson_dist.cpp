@@ -63,7 +63,7 @@ double poisson_range_successes(double expected, double lower, double upper) {
  * main function
  */
 int main() {
-    double rate, expected;
+    double rate = NAN, expected = NAN;
     rate = poisson_rate(3, 1);
     std::cout << "Poisson rate : " << rate << std::endl;
 
